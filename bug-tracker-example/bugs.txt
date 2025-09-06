@@ -1,0 +1,3 @@
+Bug;NullPointerException;Occurs when clicking save
+Feature;DarkMode;Add dark mode toggle
+Improvement;Performance;Optimize loading time
