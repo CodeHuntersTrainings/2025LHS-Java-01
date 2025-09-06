@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_HelloWorld/01_HelloWorld.iml" filepath="$PROJECT_DIR$/01_HelloWorld/01_HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_Basics/02_Basics.iml" filepath="$PROJECT_DIR$/02_Basics/02_Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_Basics_E/02_Basics_E.iml" filepath="$PROJECT_DIR$/02_Basics_E/02_Basics_E.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_Basics_E_DebugExercise/02_Basics_E_DebugExercise.iml" filepath="$PROJECT_DIR$/02_Basics_E_DebugExercise/02_Basics_E_DebugExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_Arrays/03_Arrays.iml" filepath="$PROJECT_DIR$/03_Arrays/03_Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_Arrays_E/03_Arrays_E.iml" filepath="$PROJECT_DIR$/03_Arrays_E/03_Arrays_E.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_Methods/04_Methods.iml" filepath="$PROJECT_DIR$/04_Methods/04_Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_Methods_E/04_Methods_E.iml" filepath="$PROJECT_DIR$/04_Methods_E/04_Methods_E.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_Algorithms/05_Algorithms.iml" filepath="$PROJECT_DIR$/05_Algorithms/05_Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_ArraysMethods_E/06_ArraysMethods_E.iml" filepath="$PROJECT_DIR$/06_ArraysMethods_E/06_ArraysMethods_E.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_Integer/07_Integer.iml" filepath="$PROJECT_DIR$/07_Integer/07_Integer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_String/08_String.iml" filepath="$PROJECT_DIR$/08_String/08_String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_Classes/09_Classes.iml" filepath="$PROJECT_DIR$/09_Classes/09_Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_Classes_E_Cat/09_Classes_E_Cat.iml" filepath="$PROJECT_DIR$/09_Classes_E_Cat/09_Classes_E_Cat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_Classes_E_TV/09_Classes_E_TV.iml" filepath="$PROJECT_DIR$/09_Classes_E_TV/09_Classes_E_TV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_List_Set_Map/10_List_Set_Map.iml" filepath="$PROJECT_DIR$/10_List_Set_Map/10_List_Set_Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_Inheritance/11_Inheritance.iml" filepath="$PROJECT_DIR$/11_Inheritance/11_Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_Inheritance_E_Alien/11_Inheritance_E_Alien.iml" filepath="$PROJECT_DIR$/11_Inheritance_E_Alien/11_Inheritance_E_Alien.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_Exceptions/12_Exceptions.iml" filepath="$PROJECT_DIR$/12_Exceptions/12_Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_Exceptions_E/12_Exceptions_E.iml" filepath="$PROJECT_DIR$/12_Exceptions_E/12_Exceptions_E.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Homework_DiceRollsHistogram/13_Homework_DiceRollsHistogram.iml" filepath="$PROJECT_DIR$/13_Homework_DiceRollsHistogram/13_Homework_DiceRollsHistogram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Homework_MagicDoorPuzzle/13_Homework_MagicDoorPuzzle.iml" filepath="$PROJECT_DIR$/13_Homework_MagicDoorPuzzle/13_Homework_MagicDoorPuzzle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Homework_PasswordObfuscator/13_Homework_PasswordObfuscator.iml" filepath="$PROJECT_DIR$/13_Homework_PasswordObfuscator/13_Homework_PasswordObfuscator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Homework_StockPriceTracker/13_Homework_StockPriceTracker.iml" filepath="$PROJECT_DIR$/13_Homework_StockPriceTracker/13_Homework_StockPriceTracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_Files/14_Files.iml" filepath="$PROJECT_DIR$/14_Files/14_Files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Training.iml" filepath="$PROJECT_DIR$/Training.iml" />
+    </modules>
+  </component>
+</project>
