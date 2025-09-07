@@ -49,11 +49,11 @@ public class AnimalSteps {
         Assertions.assertFalse(animal.isHungry(), name + " should not be hungry");
     }
 
-    @And("the {word} {string} is under health examination")
-    public void the_animal_is_under_health_examination(String type, String name) {
-        Animal animal = findAnimalByName(name);
-        animal.setUnderHealthExamination(true);
-    }
+    //@And("the {word} {string} is under health examination")
+    //public void the_animal_is_under_health_examination(String type, String name) {
+    //    Animal animal = findAnimalByName(name);
+    //    animal.setUnderHealthExamination(true);
+    //}
 
     private Animal findAnimalByName(String name) {
         List<Animal> animals = context.zoo.getAnimals();
