@@ -8,16 +8,25 @@ public class Wizard {
     private String house;
     private int year;
 
-    public Wizard() {
-        this.name = "Unknown";
-        this.house = "Unknown";
-        this.year = 1;
+    //name of the class is presented here
+    public Wizard() { //new Wizard();
+        name = "Unknown";
+        house = "Unknown";
+        year = 1;
     }
 
+    //new Wizard("Harry", "Griff", 10);
     public Wizard(String name, String house, int year) {
-        this.name = name;
+        this.name = name; //this usage --> collision of namings
         this.house = house;
         this.year = year;
+    }
+
+    //new Wizard("Harry", "Griff");
+    public Wizard(String name, String house) {
+        this.name = name;
+        this.house = house;
+        this.year = 7;
     }
 
     public String getName() {

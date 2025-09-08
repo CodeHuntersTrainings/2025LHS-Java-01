@@ -7,7 +7,8 @@ public class Main {
         System.out.println("Default Wizard: " + defaultWizard);
 
         // Using parameterized constructor
-        Wizard harry = new Wizard("Harry Potter", "Gryffindor", 5);
+        String harryPotter = new String("Harry Potter");
+        Wizard harry = new Wizard(harryPotter, "Gryffindor", 5);
         System.out.println("Created Wizard: " + harry);
 
         // Testing setters

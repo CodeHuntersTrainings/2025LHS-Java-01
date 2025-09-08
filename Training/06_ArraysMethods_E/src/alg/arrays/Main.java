@@ -1,7 +1,11 @@
-package alg;
+package alg.arrays;
+
+import java.lang.*;
 
 public class Main {
     public static void main(String[] args) {
+        java.util.Random rand = new java.util.Random();
+
         int[] numbers = {-12, 2, 6, 78, 41, 25, -126, -8, -7, -52, 458, 5};
 
         double avg = calculateAvg(numbers);
