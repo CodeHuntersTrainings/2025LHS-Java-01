@@ -40,6 +40,7 @@ public class Main {
     // (d) method returns int, two parameters
     public static int calculateDamage(int thorHammerHit, int hulkSmash) {
         return thorHammerHit + hulkSmash;
+        //return 1500;
     }
 
     // (d) method returns int, three parameters
