@@ -1,7 +1,8 @@
 package storage;
 
-import java.util.ArrayList;
-import java.util.List;
+//import java.util.ArrayList;
+//import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,8 +15,8 @@ public class Main {
         };
 
         // For-each loop = Enhanced for loop
-        for (Alien alien : aliens) {
-            System.out.println(alien);
+        for (Alien i : aliens) {
+            System.out.println(i);
         }
 
         //II. ArrayList / LinkedList --> List
@@ -29,9 +30,16 @@ public class Main {
         }
 
         //III. HashSet / LinkedHashSet --> Set
-        //TODO: Implement
+        //Collection, Set: same methods: add(), remove(), contains(), isEmpty(), size() + forEach
+        Set<Alien> alienSet = new HashSet<>();
+        alienSet.add(new Alien("Zorg", "Venus"));
+        alienSet.add(new Alien("Xeno", "Jupiter"));
+        alienSet.add(new Alien("Xeno", "Jupiter"));
+        System.out.println("Size of alienSet:" + alienSet.size());
 
         //IV. HashMap --> Map
-        //TODO: Implement
+        Map<String, Alien> alienMap = new HashMap<>();
+        alienMap.put("Earth", new Alien("Zorg", "Earth"));
+        alienMap.put("Mars", new Alien("Xeno", "Mars"));
     }
 }

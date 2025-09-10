@@ -4,11 +4,23 @@ public class Main {
 
     public static boolean canOpenMagicDoor(int[] numbers) {
         int sum = 0;
+
+        //Index: YES
+        //for (int i = 0; i < numbers.length; i++) {
+        //    sum += numbers[i];
+        //}
+
+        //Enhanced for loop: foreach
+        //Index: NO
         for (int num : numbers) {
             sum += num;
         }
 
-        return sum % 11 == 0;
+        if (sum % 11 == 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public static void main(String[] args) {

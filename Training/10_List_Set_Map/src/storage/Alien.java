@@ -1,7 +1,8 @@
 package storage;
 
-public class Alien {
-    private final String name;
+//final class = no inheritance
+public final class Alien {
+    private final String name; //FINAL = no assigment again
     private final String planet;
 
     public Alien(String name, String planet) {
@@ -15,6 +16,11 @@ public class Alien {
 
     public String getPlanet() {
         return planet;
+    }
+
+    //final = no override
+    public final void fly () {
+        System.out.println("I am flying: " + name);
     }
 
     @Override
