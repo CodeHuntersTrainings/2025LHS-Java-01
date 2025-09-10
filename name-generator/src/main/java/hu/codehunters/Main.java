@@ -2,44 +2,42 @@ package hu.codehunters;
 
 import com.github.javafaker.Faker;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int defaultCount = 5;
+        if (args.length < 2) {
+            System.out.println("Exit....not enough parameters.");
+            return;
+        }
 
-        // Parse system property
-        Integer paramCount = parsePositiveInt(System.getProperty("parameters.count"));
+        String location = System.getProperty("x.location");
+        //String location = "Pecs";
+        if (location == null) {
+            System.out.println("Location is missing.");
+            return;
+        }
 
-        // Parse first command-line argument
-        Integer argCount = (args.length > 0) ? parsePositiveInt(args[0]) : null;
+        String company = System.getenv("COMPANY");
+        if (company == null) {
+            System.out.println("Company is missing.");
+            return;
+        }
 
-        // Decide which count to use:
-        // Both present -> smallest positive
-        // Only one present -> that one
-        // None -> default
-        int count = defaultCount;
-        if (paramCount != null && argCount != null) {
-            count = Math.min(paramCount, argCount);
-        } else if (paramCount != null) {
-            count = paramCount;
-        } else if (argCount != null) {
-            count = argCount;
+        String date;
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Please enter your date:");
+            date = scanner.nextLine().trim();
         }
 
         Faker faker = new Faker();
 
-        for (int i = 0; i < count; i++) {
-            System.out.println(faker.name().fullName());
-        }
-    }
+        System.out.println();
+        System.out.println();
 
-    private static Integer parsePositiveInt(String str) {
-        if (str == null) return null;
-        try {
-            int val = Integer.parseInt(str);
-            if (val > 0) {
-                return val;
-            }
-        } catch (NumberFormatException ignored) {}
-        return null;
+        System.out.println(faker.name().firstName() + " " + args[0]
+                + " and " + company + " are going to " + location + " on " + date);
+
+        System.out.println("Number of dogs: " + Integer.parseInt(args[1].trim()));
     }
 }
