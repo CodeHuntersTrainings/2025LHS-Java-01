@@ -12,10 +12,13 @@ public class Feeder {
         for (Animal animal : animals) {
             if (animal instanceof Lion && inventory.consumeFood(Food.MEAT)) {
                 animal.eat(Food.MEAT);
+
             } else if (animal instanceof Elephant && inventory.consumeFood(Food.PLANTS)) {
                 animal.eat(Food.PLANTS);
+
             } else if (animal instanceof Monkey && inventory.consumeFood(Food.FRUITS)) {
                 animal.eat(Food.FRUITS);
+
             } else {
                 System.out.println("No suitable food available for " + animal.getName());
             }

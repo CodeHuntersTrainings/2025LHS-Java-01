@@ -7,7 +7,14 @@ public class Inventory {
     private Map<Food, Integer> stock = new HashMap<>();
 
     public void addFood(Food food, int quantity) {
-        stock.put(food, stock.getOrDefault(food, 0) + quantity);
+        Integer foodValue = stock.get(food);
+
+        if (foodValue == null) {
+            stock.put(food, 0 + quantity);
+
+        } else {
+            stock.put(food, foodValue + quantity);
+        }
     }
 
     public boolean hasFood(Food food) {

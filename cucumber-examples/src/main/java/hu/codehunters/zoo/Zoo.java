@@ -5,7 +5,6 @@ import hu.codehunters.zoo.food.Feeder;
 import hu.codehunters.zoo.food.Inventory;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 public class Zoo {

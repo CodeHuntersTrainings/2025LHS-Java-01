@@ -17,10 +17,13 @@ public abstract class Animal {
         if (isHungry && !underHealthExamination) {
             System.out.println(name + " eats " + food);
             isHungry = false;
+
         } else if (underHealthExamination) {
             System.out.println(name + " is under health examination and cannot eat.");
+
         } else {
             System.out.println(name + " is not hungry.");
+
         }
     }
 
