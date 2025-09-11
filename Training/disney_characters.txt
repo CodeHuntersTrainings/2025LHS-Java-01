@@ -1,5 +1,0 @@
-Mickey Mouse,94
-Elsa,21
-Simba,3
-Goofy,89
-Moana,16
