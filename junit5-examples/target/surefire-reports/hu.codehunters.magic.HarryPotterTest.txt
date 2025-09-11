@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: hu.codehunters.magic.HarryPotterTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.033 s -- in hu.codehunters.magic.HarryPotterTest

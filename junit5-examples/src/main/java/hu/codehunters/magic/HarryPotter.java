@@ -15,8 +15,9 @@ public class HarryPotter {
             case "expecto patronum":
                 return "A silver stag emerges!";
             default:
-                return "Unknown spell!";
+                throw new IllegalArgumentException("Unknown spell: " + spell);
         }
     }
+
 
 }
