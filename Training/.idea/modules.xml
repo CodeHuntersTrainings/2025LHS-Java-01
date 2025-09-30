@@ -32,6 +32,9 @@
       <module fileurl="file://$PROJECT_DIR$/13_Homework_SpaceMissions/13_Homework_SpaceMissions.iml" filepath="$PROJECT_DIR$/13_Homework_SpaceMissions/13_Homework_SpaceMissions.iml" />
       <module fileurl="file://$PROJECT_DIR$/13_Homework_StockPriceTracker/13_Homework_StockPriceTracker.iml" filepath="$PROJECT_DIR$/13_Homework_StockPriceTracker/13_Homework_StockPriceTracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/14_Files/14_Files.iml" filepath="$PROJECT_DIR$/14_Files/14_Files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20_Loops/20_Loops.iml" filepath="$PROJECT_DIR$/20_Loops/20_Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21_Methods/21_Methods.iml" filepath="$PROJECT_DIR$/21_Methods/21_Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22_Instruments/22_Instruments.iml" filepath="$PROJECT_DIR$/22_Instruments/22_Instruments.iml" />
       <module fileurl="file://$PROJECT_DIR$/Training.iml" filepath="$PROJECT_DIR$/Training.iml" />
     </modules>
   </component>
